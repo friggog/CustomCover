@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = CustomCoverPrefs;
+		cell = PSLinkCell;
+		detail = "CustomCoverPrefsListController";
+		icon = "/Library/PreferenceBundles/CustomCoverPrefs.bundle/icon.png";
+		isController = 1;
+		label = CustomCover;
+	};
+}

@@ -1,0 +1,13 @@
+Package: me.chewitt.customcover.themes
+Name: CustomCover Default Themes
+Depends: me.chewitt.customcover
+Conflicts: me.chewitt.customcover.beta
+Version: 1.0
+Icon: file:///Library/PreferenceBundles/CustomCoverPrefs.bundle/icon_large.png
+Architecture: iphoneos-arm
+Description: Default themes for CustomCover.
+Maintainer: Charlie Hewitt <contact@chewitt.me>
+Author: Charlie Hewitt <contact@chewitt.me>
+Section: Themes
+Replaces: me.chewitt.customcover (<< 1.6.1)
+Breaks: me.chewitt.customcover (<< 1.6.1)

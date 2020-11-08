@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Enabling &apos;Artwork as Background&apos; (particularly with blur enabled) or &apos;Colourise from Artwork&apos; may cause lag on older devices.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.customcoverprefs</string>
+			<key>key</key>
+			<string>MusicColourFromArtwork</string>
+			<key>id</key>
+			<string>colourFromArtwork</string>
+			<key>label</key>
+			<string>Colourise from Artwork</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.customcoverprefs.settingschanged</string>
+			<key>set</key>
+			<string>setUseArtworkColours:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>me.chewitt.customcoverprefs</string>
+			<key>key</key>
+			<string>MusicArtworkBG</string>
+			<key>id</key>
+			<string>ArtworkBG</string>
+			<key>label</key>
+			<string>Artwork as Background</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.customcoverprefs.settingschanged</string>
+			<key>set</key>
+			<string>setArtworkAsWall:specifier:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>me.chewitt.customcoverprefs</string>
+			<key>key</key>
+			<string>MusicBackgroundMode</string>
+			<key>id</key>
+			<string>BackgroundMode</string>
+			<key>label</key>
+			<string>Background Mode</string>
+			<key>detail</key>
+			<string>CHCCPSListItemsController</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.customcoverprefs.settingschanged</string>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+			<key>validTitles</key>
+			<array>
+				<string>Dark Blur</string>
+				<string>Light Blur</string>
+				<string>No Blur</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Aria's tint option may interfere with this.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>cellClass</key>
+			<string>CHCCColourPickerLinkCell</string>
+			<key>default</key>
+			<string>#FFFF2D55</string>
+			<key>defaults</key>
+			<string>me.chewitt.customcoverprefs</string>
+			<key>key</key>
+			<string>MusicTintColour</string>
+			<key>id</key>
+			<string>MusicTintColour</string>
+			<key>label</key>
+			<string>App Tint Colour</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.customcoverprefs.settingschanged</string>
+			<key>detail</key>
+			<string>CHCCColourPickerController</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>You may need to restart the music app for changes of these options to properley apply.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Music Settings</string>
+</dict>
+</plist>

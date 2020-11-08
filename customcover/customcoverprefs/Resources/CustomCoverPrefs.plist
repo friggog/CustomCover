@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSStaticTextCell</string>
+			<key>cellClass</key>
+			<string>CCBannerCell</string>
+			<key>height</key>
+			<real>100</real>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Lock Screen</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/CustomCoverPrefs.bundle/themes.png</string>
+			<key>default</key>
+			<string>Default</string>
+			<key>defaults</key>
+			<string>me.chewitt.customcoverprefs</string>
+			<key>key</key>
+			<string>SelectedTheme</string>
+			<key>id</key>
+			<string>SelectedTheme</string>
+			<key>label</key>
+			<string>Theme</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.customcoverprefs.settingschanged</string>
+			<key>detail</key>
+			<string>CHCCPSListItemsController</string>
+			<key>validValues</key>
+			<array>
+
+			</array>
+			<key>validTitles</key>
+			<array>
+
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Position Settings</string>
+			<key>detail</key>
+			<string>OffsetSettingsController</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/CustomCoverPrefs.bundle/offset.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Other Settings</string>
+			<key>detail</key>
+			<string>LockOtherSettingsController</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/CustomCoverPrefs.bundle/other.png</string>
+		</dict>
+
+
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Music App</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/CustomCoverPrefs.bundle/themes.png</string>
+			<key>default</key>
+			<string>Default</string>
+			<key>defaults</key>
+			<string>me.chewitt.customcoverprefs</string>
+			<key>key</key>
+			<string>MusicSelectedTheme</string>
+			<key>id</key>
+			<string>MusicSelectedTheme</string>
+			<key>label</key>
+			<string>Theme</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.customcoverprefs.settingschanged</string>
+			<key>detail</key>
+			<string>CHCCPSListItemsController</string>
+			<key>validValues</key>
+			<array>
+
+			</array>
+			<key>validTitles</key>
+			<array>
+
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>label</key>
+			<string>Other Settings</string>
+			<key>detail</key>
+			<string>MusicOtherSettingsController</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/CustomCoverPrefs.bundle/other.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Support</string>
+			<key>id</key>
+			<string>supportGroup</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>openEmailLink</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>CHCCButtonCell</string>
+			<key>label</key>
+			<string>Email</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/CustomCoverPrefs.bundle/mail.png</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>openTwitterLink</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>cellClass</key>
+			<string>CHCCButtonCell</string>
+			<key>label</key>
+			<string>Twitter</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/CustomCoverPrefs.bundle/twitter.png</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>CustomCover $ © Charlie Hewitt 2015</string>
+			<key>id</key>
+			<string>copyright</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>CustomCover</string>
+</dict>
+</plist>

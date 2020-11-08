@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ArtworkOriginX</key>
+	<integer>-112</integer>
+	<key>ArtworkOriginY</key>
+	<integer>-69</integer>
+	<key>ArtworkSizeX</key>
+	<integer>225</integer>
+	<key>ArtworkSizeY</key>
+	<integer>225</integer>
+	<key>BackOriginX</key>
+	<integer>-168</integer>
+	<key>BackOriginY</key>
+	<integer>-84</integer>
+	<key>BackSizeX</key>
+	<integer>336</integer>
+	<key>BackSizeY</key>
+	<integer>263</integer>
+	<key>OverlayOriginX</key>
+	<integer>-168</integer>
+	<key>OverlayOriginY</key>
+	<integer>-84</integer>
+	<key>OverlaySizeX</key>
+	<integer>336</integer>
+	<key>OverlaySizeY</key>
+	<integer>263</integer>
+	<key>MusicOffset</key>
+	<integer>15</integer>
+</dict>
+</plist>

@@ -1,0 +1,11 @@
+Package: me.chewitt.customcover
+Name: CustomCover
+Depends: firmware(>= 7.0), mobilesubstrate, preferenceloader, me.chewitt.customcover.themes
+Conflicts: me.chewitt.customcover.beta
+Version: 1.7.1
+Icon: file:///Library/PreferenceBundles/CustomCoverPrefs.bundle/icon_large.png
+Architecture: iphoneos-arm
+Description: Customise the lock screen media plugin and the music app.
+Maintainer: Charlie Hewitt <contact@chewitt.me>
+Author: Charlie Hewitt <contact@chewitt.me>
+Section: Tweaks

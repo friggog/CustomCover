@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Controls Offset</string>
+			<key>footerText</key>
+			<string>Controls Offset changes the vertical position of the media controls.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>cellClass</key>
+			<string>CCBetterSliderCell</string>
+			<key>default</key>
+			<real>0</real>
+			<key>defaults</key>
+			<string>me.chewitt.customcoverprefs</string>
+			<key>min</key>
+			<integer>0</integer>
+			<key>max</key>
+			<integer>600</integer>
+			<key>showValue</key>
+			<true/>
+			<key>key</key>
+			<string>controlsOffset</string>
+			<key>id</key>
+			<string>controlsOffset</string>
+			<key>label</key>
+			<string>Controls Offset</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.customcoverprefs.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Artwork X Offset</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>cellClass</key>
+			<string>CCBetterSliderCell</string>
+			<key>default</key>
+			<real>0</real>
+			<key>defaults</key>
+			<string>me.chewitt.customcoverprefs</string>
+			<key>min</key>
+			<integer>-250</integer>
+			<key>max</key>
+			<integer>250</integer>
+			<key>showValue</key>
+			<true/>
+			<key>key</key>
+			<string>manualOffsetX</string>
+			<key>id</key>
+			<string>manualOffsetX</string>
+			<key>label</key>
+			<string>Artwork X Offset</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.customcoverprefs.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Artwork Y Offset</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>cellClass</key>
+			<string>CCBetterSliderCell</string>
+			<key>default</key>
+			<real>0</real>
+			<key>defaults</key>
+			<string>me.chewitt.customcoverprefs</string>
+			<key>min</key>
+			<integer>-250</integer>
+			<key>max</key>
+			<integer>250</integer>
+			<key>showValue</key>
+			<true/>
+			<key>key</key>
+			<string>manualOffsetY</string>
+			<key>id</key>
+			<string>manualOffsetY</string>
+			<key>label</key>
+			<string>Artwork Y Offset</string>
+			<key>PostNotification</key>
+			<string>me.chewitt.customcoverprefs.settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Artwork Offsets change the position of the custom cover in order to improve compatibility with lockscreen widgets.
+
+Negative values mean left/up, positive values means right/down.
+
+You can tap the number at the side of the slider to enter an exact value.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Position Settings</string>
+</dict>
+</plist>

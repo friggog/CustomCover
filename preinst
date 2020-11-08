@@ -1,0 +1,6 @@
+#!/bin/sh
+
+rm /Library/Application\ Support/CustomCover/Cache/colours.plist
+echo "Cleared colour cache"
+
+exit 0

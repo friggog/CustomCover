@@ -1,0 +1,81 @@
+*************************************
+	 CUSTOM COVER HELP
+*************************************
+
+
+===================================== 
+	    FILE LAYOUT 
+=====================================
+
+A custom theme should have the following file layout (case sensitive) :
+
+--------------------------------------------------------------------------
+
+[ThemeName] -  iPad  - Metrics.plist
+	  	     - Mask(@2x).png *
+		     - Overlay(@2x).png *
+		     - Background(@2x).png *
+		     - Default(@2x).png *
+
+	    - iPhone - Metrics.plist
+	  	     - Mask(@2x).png *
+		     - Overlay(@2x).png *
+		     - Background(@2x).png *
+		     - Default(@2x).png *
+
+--------------------------------------------------------------------------
+
+* denotes optional files; if a mask is not included the artwork will be square, if other files are not included they will be blank.
+
+This folder must be placed in /Library/Application Support/CustomCover/Themes/ and will show up automatically in the preference pane if correctly organised.
+
+--------------------------------------------------------------------------
+
+
+
+=====================================
+	   METRICS.PLIST 
+=====================================
+
+The Metrics.plist file controls the positioning of the various elements of the theme, it is essential.
+All positions (originX/Y) are measured from the centre of the screen.
+All numbers are in points, i.e. pixel values for non-retina displays. (So if your retina image is 400x400 pixels, this is 200x200 points).
+All values are case sensitive.
+The following keys are included (in the form KeyName - (type) - description):
+
+--------------------------------------------------------------------------
+
+ArtworkOriginX - (real) - X position of album artwork from centre of screen.
+ArtworkOriginY - (real) - Y position of album artwork from centre of screen.
+ArtworkSizeX - (real) - Width of album artwork.
+ArtworkSizeY - (real) - Height of album artwork.
+
+BackOriginX - (real) - X position of background image from centre of screen.
+BackOriginY - (real) - Y position of background image from centre of screen.
+BackSizeX - (real) - Width of background image.
+BackSizeY - (real) - Height of background image.
+ 
+OverlayOriginX - (real) - X position of overlay image from centre of screen.
+OverlayOriginY - (real) - Y position of overlay image from centre of screen.
+OverlaySizeX - (real) - Width of overlay image.
+OverlaySizeY - (real) - Height of overlay image.
+
+LegacyOffset - (real) - this is the Y-position offset for iPhones/iPods with 3.5-inch displays (they may need to be moved down in comparison to 5-inch display layouts).
+
+MusicOffset - (real) - y-position offset for when the theme is used in the music app.
+
+--------------------------------------------------------------------------
+
+The keys are entered as such: <key>KeyName</key>
+(real) means any positive number (including decimals) and is entered: <real>xy.z</real>
+
+--------------------------------------------------------------------------
+
+The artwork specifiers must always be present (to show artwork), the others can be left out if you are not using those images. 
+The mask image is autosized to the artwork.
+
+--------------------------------------------------------------------------
+
+You can check out the included themes for how it all works and adapt them to your own themes.
+If you have any suggestions for improvements please email me from the preference pane.
+
